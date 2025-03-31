@@ -37,4 +37,4 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
-          pytest -vvl
+          pytest . -vvvv
